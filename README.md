@@ -6,6 +6,7 @@ DreamFarm is an innovative solution that leverages AI-powered tools and seamless
 - Real-time weather information for efficient crop management.
 - Soil testing services to help farmers monitor soil conditions.
 - AI-based crop recommendations based on location, soil type, and weather conditions.
+- AI-based pest disease detection and its possible remedies
 - Integration with the Gemini chat app for personalized advice and interaction.
 - Marketplace and community features for farmers to buy, sell, and connect.
 - FastAPI-based web scraping to retrieve agricultural data from relevant sources.
