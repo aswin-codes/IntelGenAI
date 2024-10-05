@@ -1,6 +1,8 @@
+To display the images side by side in your `README.md`, you can use HTML within the markdown file since GitHub's markdown parser allows it. Here's how you can modify the section with the images:
 
+### Updated `README.md` with Images Side by Side
 
-
+```markdown
 # IntelGenAI (Hackathon)
 
 **DreamFarm** is an innovative solution that leverages AI-powered tools and seamless integration of various services to provide smart farming solutions. The project is powered by DreamFarm (a Flutter-based frontend) and a robust backend infrastructure with GenAI, Django, FastAPI for web scraping, and Streamlit for an end-to-end Gemini chat experience.
@@ -18,22 +20,20 @@
 
 ---
 
+### Screenshots
+
 Below are screenshots demonstrating various features of DreamFarm:
 
-![Screenshot 1](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728101993/Screenshot_1728101830_yqzyip.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728101993/Screenshot_1728101830_yqzyip.png" alt="Screenshot 1" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102006/Screenshot_1728101851_esqis8.png" alt="Screenshot 2" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102031/Screenshot_1728101867_mbmreo.png" alt="Screenshot 3" width="200"/>
+</p>
 
-
-![Screenshot 2](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102006/Screenshot_1728101851_esqis8.png)
-
-
-![Screenshot 3](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102031/Screenshot_1728101867_mbmreo.png)
-
-
-![Screenshot 4](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102068/Screenshot_1728101906_i50fjh.png)
-
-
-![Screenshot 5](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102076/Screenshot_1728101911_bdhopw.png)
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102068/Screenshot_1728101906_i50fjh.png" alt="Screenshot 4" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102076/Screenshot_1728101911_bdhopw.png" alt="Screenshot 5" width="200"/>
+</p>
 
 ## Requirements to Run the Software
 
@@ -157,9 +157,3 @@ Before proceeding, ensure the following dependencies are installed on your machi
   - Streamlit Apps: `http://localhost:8501`
   
 Feel free to reach out if you have any questions or need further assistance!
-```
-
-### Notes:
-- Adjust the Python version requirement as necessary based on your dependencies.
-- Include any other dependencies or setup instructions specific to your project.
-- Ensure to replace placeholder links with actual links if needed.
