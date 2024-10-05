@@ -14,7 +14,7 @@ region = st.selectbox("Select Region", options=["North", "East", "South", "West"
 soil_type = st.selectbox("Select Soil Type", options=["Clay", "Sandy", "Loam", "Silt", "Peaty", "Chalky"])
 crop = st.selectbox("Select Crop", options=["Wheat", "Rice", "Maize", "Barley", "Soybean", "Cotton"])
 rainfall = st.number_input("Rainfall (mm)", min_value=0)
-temperature = st.number_input("Temperature (°C)", min_value=-50, max_value=50)
+temperature = st.number_input("Temperature (°C)", min_value=18, max_value=50)
 fertilizer_used = st.selectbox("Fertilizer Used", options=[True, False])
 irrigation_used = st.selectbox("Irrigation Used", options=[True, False])
 weather_condition = st.selectbox("Select Weather Condition", options=["Sunny", "Rainy", "Cloudy"])
