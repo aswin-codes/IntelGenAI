@@ -4,7 +4,7 @@
 **DreamFarm** is an innovative solution that leverages AI-powered tools and seamless integration of various services to provide smart farming solutions. The project is powered by DreamFarm (a Flutter-based frontend) and a robust backend infrastructure with GenAI, Django, FastAPI for web scraping, and Streamlit for an end-to-end Gemini chat experience.
 
 ## Features of DreamFarm
-- Real-time weather information for efficient crop management.
+- Real-time IOT integration and data analysis for efficient crop management, predictive maintenance and live inputs.
 - Soil testing services to help farmers monitor soil conditions.
 - AI-based crop recommendations based on location, soil type, and weather conditions Intel OneAPI.
 - AI-based pest disease detection and its possible remedies.
