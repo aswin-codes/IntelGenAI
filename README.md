@@ -6,13 +6,14 @@
 ## Features of DreamFarm
 - Real-time weather information for efficient crop management.
 - Soil testing services to help farmers monitor soil conditions.
-- AI-based crop recommendations based on location, soil type, and weather conditions.
+- AI-based crop recommendations based on location, soil type, and weather conditions Intel OneAPI.
 - AI-based pest disease detection and its possible remedies.
-- Integration with the Gemini chat app for personalized advice and interaction.
+- Integration with the Gemini chat app for personalized support and connection to soil testing facilities, storage facilities and input suppliers.
 - Marketplace and community features for farmers to buy, sell, and connect.
 - FastAPI-based web scraping to retrieve agricultural data from relevant sources.
-- AI-based crop yield predictor.
-- With local language support
+- AI-based crop yield predictor using Intel OneAPI.
+- With local language support.
+
 
 ---
 
