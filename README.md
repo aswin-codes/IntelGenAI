@@ -1,8 +1,4 @@
-To display the images side by side in your `README.md`, you can use HTML within the markdown file since GitHub's markdown parser allows it. Here's how you can modify the section with the images:
 
-### Updated `README.md` with Images Side by Side
-
-```markdown
 # IntelGenAI (Hackathon)
 
 **DreamFarm** is an innovative solution that leverages AI-powered tools and seamless integration of various services to provide smart farming solutions. The project is powered by DreamFarm (a Flutter-based frontend) and a robust backend infrastructure with GenAI, Django, FastAPI for web scraping, and Streamlit for an end-to-end Gemini chat experience.
