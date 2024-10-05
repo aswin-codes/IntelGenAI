@@ -1,9 +1,9 @@
-
 # IntelGenAI (Hackathon)
 
 **DreamFarm** is an innovative solution that leverages AI-powered tools and seamless integration of various services to provide smart farming solutions. The project is powered by DreamFarm (a Flutter-based frontend) and a robust backend infrastructure with GenAI, Django, FastAPI for web scraping, and Streamlit for an end-to-end Gemini chat experience.
 
 ## Features of DreamFarm
+
 - Real-time IOT integration and data analysis for efficient crop management, predictive maintenance and live inputs.
 - Soil testing services to help farmers monitor soil conditions.
 - AI-based crop recommendations based on location, soil type, and weather conditions Intel OneAPI.
@@ -13,7 +13,6 @@
 - FastAPI-based web scraping to retrieve agricultural data from relevant sources.
 - AI-based crop yield predictor using Intel OneAPI.
 - With local language support.
-
 
 ---
 
@@ -36,7 +35,11 @@ Below are screenshots demonstrating various features of DreamFarm:
 <p align="center">
   <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102952/Screenshot_1728102872_ptu2ae.png" alt="Screenshot 7" width="200"/>
   <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102985/Screenshot_1728102909_pvbwmx.png" alt="Screenshot 8" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728103876/NODEMCU_q16lwj.png" alt="Screenshot 9" width="200" />
 </p>
+
+<p  align="center">
+<img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728104204/AGRICULTURAL_BOT_PROTOTYPE_tggth1.png" alt="Screenshot 7" width="200"/></p>
 
 ## Requirements to Run the Software
 
@@ -51,6 +54,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
 ## Running the Software
 
 ### 1. Run the Flutter Frontend
+
 1. Navigate to the frontend folder:
    ```bash
    cd Frontend/dreamfarm
@@ -65,6 +69,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    ```
 
 ### 2. Run the GenAI Server
+
 1. Navigate to the GenAI server backend folder:
    ```bash
    cd Backend/genai
@@ -79,6 +84,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    ```
 
 ### 3. Run the Django Server
+
 1. Navigate to the Django server folder:
    ```bash
    cd Backend/server
@@ -93,6 +99,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    ```
 
 ### 4. Run the Web Scraping FastAPI Server
+
 1. Navigate to the web scraping service folder:
    ```bash
    cd Backend/server/webscraping/scraping
@@ -107,6 +114,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    ```
 
 ### 5. Run the Gemini Streamlit App
+
 1. Navigate to the Gemini chat project folder:
    ```bash
    cd Backend/server/Gemini_chat/End-To-End-Gemini-Project
@@ -121,6 +129,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    ```
 
 ### 6. Train the Data
+
 1. Install the scikit-learn-intelex package:
    ```bash
    pip install scikit-learn-intelex
@@ -137,6 +146,7 @@ Before proceeding, ensure the following dependencies are installed on your machi
    This will generate two pickle files: one using `RandomForestRegressor` and another using `Linear Regression`. Modify the pickle files accordingly in the `app.py` for the Streamlit application.
 
 ### 7. Run the Yield Predictor Streamlit App
+
 1. Ensure Streamlit is installed:
    ```bash
    pip install streamlit
@@ -153,10 +163,11 @@ Before proceeding, ensure the following dependencies are installed on your machi
 ---
 
 ## Additional Notes
+
 - Ensure all services are running properly to facilitate communication between different components of the application.
 - You can access the respective services through the following URLs:
   - Django Server: `http://127.0.0.1:8000`
   - FastAPI Server: `http://127.0.0.1:8001`
   - Streamlit Apps: `http://localhost:8501`
-  
+
 Feel free to reach out if you have any questions or need further assistance!
