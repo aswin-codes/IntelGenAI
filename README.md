@@ -29,6 +29,12 @@ Below are screenshots demonstrating various features of DreamFarm:
 <p align="center">
   <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102068/Screenshot_1728101906_i50fjh.png" alt="Screenshot 4" width="200"/>
   <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102076/Screenshot_1728101911_bdhopw.png" alt="Screenshot 5" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102931/Screenshot_1728102845_it2adk.png" alt="Screenshot 6" width="200" >
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102952/Screenshot_1728102872_ptu2ae.png" alt="Screenshot 7" width="200"/>
+  <img src="https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102985/Screenshot_1728102909_pvbwmx.png" alt="Screenshot 8" width="200"/>
 </p>
 
 ## Requirements to Run the Software
