@@ -14,8 +14,26 @@
 - Marketplace and community features for farmers to buy, sell, and connect.
 - FastAPI-based web scraping to retrieve agricultural data from relevant sources.
 - AI-based crop yield predictor.
+- With local language support
 
 ---
+
+Below are screenshots demonstrating various features of DreamFarm:
+
+![Screenshot 1](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728101993/Screenshot_1728101830_yqzyip.png)
+
+
+![Screenshot 2](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102006/Screenshot_1728101851_esqis8.png)
+
+
+![Screenshot 3](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102031/Screenshot_1728101867_mbmreo.png)
+
+
+![Screenshot 4](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102068/Screenshot_1728101906_i50fjh.png)
+
+
+![Screenshot 5](https://res.cloudinary.com/dt0ltaylj/image/upload/v1728102076/Screenshot_1728101911_bdhopw.png)
+
 
 ## Requirements to Run the Software
 
